@@ -257,7 +257,7 @@ footer .linha2{
    color: var(--cinza-hover);
  }
 
- @media only scrheieen and (max-width: 600px){
+ @media only screen and (max-width: 600px){
    /*menu*/
    #principal{
       flex-direction: column;
@@ -300,5 +300,16 @@ footer .linha2{
 
    .checkbox-itens label{
       font-size: 17px;
+   }
+
+   /*Footer*/
+
+   footer .linha1{
+      flex-direction: column;
+   }
+
+   footer .endereço{
+      width: 95%;
+      margin-bottom:20px;
    }
  }
